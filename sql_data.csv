@@ -1,0 +1,11 @@
+"emp_id","name","age","gender","city","department","salary","experience","joining_date","bonus"
+103,"Amit",30,"Male","Lucknow","Finance",60000.00,6,"2018-01-20",7000
+104,"Neha",24,"Female","Delhi","IT",55000.00,3,"2020-08-05",6000
+105,"Vikas",35,"Male","Pune","Marketing",70000.00,8,"2016-09-12",8000
+106,"Anjali",27,"Female","Mumbai","IT",52000.00,3,"2021-11-18",5500
+107,"Rohan",29,"Male","Delhi","Finance",65000.00,5,"2019-05-22",7500
+108,"Sneha",26,"Female","Lucknow","HR",48000.00,2,"2022-02-14",4500
+109,"Arjun",32,"Male","Pune","IT",75000.00,7,"2017-07-09",9000
+110,"Kiran",23,"Female","Delhi","Marketing",43000.00,1,"2023-01-25",3500
+101,"Rahul",25,"Male","Delhi","IT",80000.00,2,"2021-06-10",5000
+102,"Priya",28,"Female","Mumbai","HR",60000.00,4,"2019-03-15",6000
