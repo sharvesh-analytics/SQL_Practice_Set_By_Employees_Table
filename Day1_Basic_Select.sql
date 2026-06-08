@@ -229,6 +229,77 @@ COUNT(*)
 FROM employees
 GROUP BY city
 HAVING COUNT(*) > 2;
+
+
+
+-- 18. DEPARTMENT TABLE
+CREATE TABLE departments (
+    dept_id INT PRIMARY KEY,
+    department VARCHAR(30),
+    manager_name VARCHAR(50),
+    location VARCHAR(30)
+);
+
+
+
+-- 19. DATA INSERT
+
+INSERT INTO departments
+VALUES
+(1,'IT','Rakesh','Delhi'),
+(2,'HR','Pooja','Mumbai'),
+(3,'Finance','Vivek','Lucknow'),
+(4,'Sales','Ankit','Pune');
+
+
+-- 20. INNER JOIN
+
+SELECT e.emp_id,
+       e.name,
+       e.department,
+       d.manager_name
+FROM employees e
+INNER JOIN departments d
+ON e.department = d.department;
+
+
+-- 21. LEFT JOIN
+
+SELECT e.emp_id,
+       e.name,
+       e.department,
+       d.manager_name
+FROM employees e
+LEFT JOIN departments d
+ON e.department = d.department;
+
+
+
+-- 22.RIGHT JOIN
+
+SELECT e.name,
+       e.department,
+       d.manager_name
+FROM employees e
+RIGHT JOIN departments d
+ON e.department = d.department;
+
+
+SELECT*FROM departments;
+
+
+
+
+-- 23. FULL OUTER JOIN
+
+
+SELECT e.name,
+       e.department,
+       d.manager_name
+FROM employees e
+FULL OUTER JOIN departments d
+ON e.department = d.department;
+
 	   
 
 
