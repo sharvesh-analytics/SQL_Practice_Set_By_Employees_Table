@@ -1,4 +1,4 @@
-# SQL Practice Repository
+ # SQL Practice Repository
 
 This repository contains my SQL practice journey. It includes basic SQL concepts, data aggregation, joins, and advanced SQL techniques such as subqueries and Common Table Expressions (CTEs).
 
